@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT-SEARCH</title>
+    <link rel="stylesheet" href="stu.css">
+</head>
+<body>
+   <div class="nav">
+    STUDENT SEARCH
+   </div>
+   <div class="content">
+    <div class="select1">
+        <select class="row1">
+            <option value="">Batch</option>
+            <option>Y23</option>
+            <option>Y22</option>
+            <option>Y21</option>
+            <option>Y20</option>
+            <option>Other</option>
+        </select>
+        <select class="row1">
+            <option value="">Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <select class="row1">
+            <option value="">Hall</option>
+            <option>Hall 13</option>
+            <option>Hall 12</option>
+            <option>Hall 4</option>
+            <option>Other</option>
+
+        </select>
+    </div>
+    
+    <div class="select2">
+        <select class="row2">
+            <option value="">Programme</option>
+            <option>BS</option>
+            <option>BTech</option>
+            <option>MTech</option>
+            <option>Other</option>
+        </select>
+        <select class="row2">
+            <option value="">Department</option>
+            <option>AE</option>
+            <option>CHE</option>
+            <option>CSE</option>
+            <option>EE</option>
+            <option>MTH</option>
+            <option>Other</option>
+        </select>
+        <select class="row2">
+            <option value="">Wing</option>
+            <option>A1</option>
+            <option>A2</option>
+            <option>A3</option>
+            <option>A4</option>
+            <option>A5</option>
+            <option>A6</option>
+            <option>B1</option>
+            <option>B2</option>
+            <option>B3</option>
+            <option>B4</option>
+            <option>B5</option>
+            <option>B6</option>
+            <option>C1</option>
+            <option>C2</option>
+            <option>C3</option>
+            <option>C4</option>
+            <option>C5</option>
+            <option>C6</option>
+            <option>D1</option>
+            <option>D2</option>
+            <option>D3</option>
+            <option>D4</option>
+            <option>D5</option>
+            <option>D6</option>
+            <option>E1</option>
+            <option>E2</option>
+            <option>E3</option>
+            <option>E4</option>
+            <option>E5</option>
+            <option>E6</option>
+            <option>F1</option>
+            <option>F2</option>
+            <option>F3</option>
+            <option>F4</option>
+            <option>F5</option>
+            <option>F6</option>
+            
+        </select>
+        <select class="row2">
+            <option value="">Bloodgroup</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>AB+</option>
+            <option>AB+</option>
+        </select>
+   </div>
+   <div class="row3"><input placeholder="Hometown" id="xx"></div>
+    
+   <div class="search-wrapper">
+    <input type="search" placeholder="Enter name , username or roll no" id="search" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+    <div class="card">
+      <div class="header" data-header></div>
+      <div class="body" data-body></div>
+    </div>
+  </template>
+    <script src="jess.js"></script>
+</body>
+</html>

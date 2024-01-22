@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+color: black;
+font-weight:bolder;
+text-align: center;
+height: 50px;
+font-size: 40px;
+align-items: center;
+justify-content: center;
+vertical-align: top;
+margin-top: 1rem;
+}
+.select1{
+   font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.select2{
+    font-size: 20px;
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 2rem;
+ }
+.row1{
+    font-size: 20px;
+
+}
+.row2{
+    font-size: 20px;
+    
+}
+
+body{
+    background-image: url("bgm.jpg");
+    background-size: cover;
+}
+#xx{
+    width: 620px;
+    height: 80px;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#search{
+    width: 620px;
+    height: 80px;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+}
+.search-wrapper{ display: flex;
+    justify-content: center;
+
+}
+
+input {
+    font-size: 1rem;
+  }
+  
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: .25rem;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+  
+  .card > .body {
+    font-size: .8rem;
+    color: #777;
+  }
+  
+  .hide {
+    display: none;
+  }
